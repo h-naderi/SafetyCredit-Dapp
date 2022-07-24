@@ -1,0 +1,44 @@
+[
+    {
+      "id": "1",
+      "companyName": "Company A",
+      "profilePic": "assets/img/CompanyA-profilePic.jpg",
+      "companyType": "Contractor",
+      "ProjectName": "Tehran Bridge",
+      "Address": "0x2D127b7113d85261Ea4bEc6C39883645e450AF66",
+      "SafetyVision": "5",
+      "TotalObservedWorkers": "198",
+      "AvarageAccuracy": "86%",
+      "AveragePerformance": "91%",
+      "LatestReport":
+        "https://ipfs.io/ipfs/QmSx1ervE7E4VC3XDZ2yqx3kx5EcSZi3ZRKDjRGtBhbjar"
+    },
+    {
+      "id": "2",
+      "companyName": "Company B",
+      "profilePic": "assets/img/CompanyB-profilePic.jpg",
+      "companyType": "Subcontractor",
+      "ProjectName": "Esfehan Bridge",
+      "Address": "0xb0a8416D9E6e30CeAD6a598Eef4Cc88d56b1EBAe",
+      "SafetyVision": "3",
+      "TotalObservedWorkers": "121",
+      "AvarageAccuracy": "83%",
+      "AveragePerformance": "82%",
+      "LatestReport":
+        "https://ipfs.io/ipfs/QmZSXecSdgPtgN7PqckvjPPLpo1QfGB8xBRY2yxwBewfAk"
+    },
+    {
+      "id": "3",
+      "companyName": "Company C",
+      "profilePic": "assets/img/CompanyC-profilePic.jpg",
+      "companyType": "Contractor",
+      "ProjectName": "Bushehr Building",
+      "Address": "0xA17Dab0082162079409fD87747CF3eBAd4BfD534",
+      "SafetyVision": "4",
+      "TotalObservedWorkers": "198",
+      "AvarageAccuracy": "89%",
+      "AveragePerformance": "89%",
+      "LatestReport":
+        "https://ipfs.io/ipfs/Qmc6t63kNfmCuEd4DiNTKJU3EEnzQeztqjhBC94jxUxHtq"
+    }
+  ]

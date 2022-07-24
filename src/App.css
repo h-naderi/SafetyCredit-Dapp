@@ -1,0 +1,137 @@
+@import url("https://fonts.googleapis.com/css?family=Abel");
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Inline&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Courier+Prime&display=swap');
+
+:root{
+  background-color: #cccccc;
+}
+
+.bg-myNav{
+  font-family: Abel, sans-serif;
+  background-color: #1b365c;
+}
+
+.navFont{
+  font-weight: bold;
+  color: #00ff80;
+}
+
+.App {
+  background-color: #cccccc;
+}
+
+.formColor{
+  background-color: #FFFFFF;
+}
+
+h1, h2, h3{
+  font-family: "Arial Black", sans-serif;
+  font-size: 29px;
+  letter-spacing: -1px;
+  border-bottom: 2px solid black;
+  text-transform: uppercase;
+}
+.card{
+  border: 1px solid #000000;
+}
+
+.wallet-button {
+  margin-top: 4px;
+  margin-bottom: 4px;
+	font-family: Arial !important;
+	font-weight: bold !important;
+	color: #000000 !important;
+	font-size: 15px !important;
+	border-radius: 7px !important;
+	border: 1px #3866a3 solid !important;
+	background-color: #00ccff !important;
+	text-shadow: 1px 1px 1px #528ecc !important;
+	box-shadow: 8px 7px 0px -4px rgba(0, 4, 255, 0.26) !important;
+	cursor: pointer !important;
+	display: inline-flex !important;
+	align-items: center !important;
+}
+.wallet-button:hover {
+	background-color: #00ff80 !important;
+}
+.wallet-button-icon {
+	padding: 3px 5px;
+	border-right: 1px solid rgba(255, 255, 255, 0.16) !important;
+	box-shadow: rgba(0, 0, 0, 0.14) -1px 0px 0px inset !important;
+}
+.wallet-button-icon svg {
+	vertical-align: middle;
+	position: relative;
+	font-size: 24px;
+	top: 0px;
+}
+.wallet-button-text {
+	padding: 3px 3px;
+}
+.card-header {
+  position: relative;
+  height: 70px;
+}
+.card-header .profile-img {
+  height: 100px;
+  border-radius: 1000px;
+  position: relative;
+  transform: translate(10%, -60%);
+  border: 8px solid #00ccff;
+  box-shadow: 0 0 20px #00000033;
+  background-color: #FFFFFF;
+}
+.card-header .profile-img:hover {
+  border: 8px solid #00ff80;
+}
+.LatestReport{
+  position: relative;
+}
+#right-panel-button{
+  position: absolute;
+  top: 0px;
+  right: 10px;
+}
+#labelFont{
+    font-family: Adamina, serif;
+    font-size: 18px;
+    font-weight: bold;
+    color: #999999;
+    text-transform: none;
+    font-style: normal;
+    text-decoration: none;
+    line-height: 1.1em;
+    letter-spacing: -0.3px;
+}
+#numberFont{
+  font-family: Abel, sans-serif;
+  font-size: 24px;
+  font-weight: bold;
+  color: #000000;
+  text-transform: none;
+  font-style: normal;
+  text-decoration: none;
+  line-height: 1.1em;
+  letter-spacing: -0.3px;
+}
+#tokenFont{
+  font-family: Bungee Inline, cursive;
+  font-size: 24px;
+  font-weight: bold;
+  color: #000000;
+  text-transform: none;
+  font-style: normal;
+  text-decoration: none;
+  line-height: 1.1em;
+  letter-spacing: -0.3px;
+}
+#codeFont{
+    font-family: Courier Prime, monospace;
+    font-size: 16px;
+}
+#shadow {
+  -webkit-box-shadow: 8px 8px 0px 0px rgba(0,0,0,0.5); 
+  box-shadow: 8px 11px 0px 0px rgba(0,0,0,0.5);
+  }
+
+
