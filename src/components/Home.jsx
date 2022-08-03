@@ -1,6 +1,6 @@
 import { Component } from "react";
 import { Button } from "react-bootstrap";
-import CDATA from "../data_companies/data.json";
+import CDATA from "../data_companies/publicReport.json";
 import axios from "axios";
 require('dotenv').config();
 

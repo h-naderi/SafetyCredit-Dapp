@@ -1,14 +1,8 @@
-/**@title: SafetyCreditTokens: incentive management of construction safety using blockchain-enabled
+/**@title: SafetyCredit Dapp: incentive management of construction safety using blockchain-enabled
  *         tokens and vision-based techniques
- * @Version: 2.5
- * @author: Hossein Naderi-Alireza Shojaei
-    
-    /*@notice:
-     * This smart contract is a ERC721 contract developed to mint SafetyCredit NFTs using SCTs.
-     *This smart contract is developed as a prototype for the SCT research project.
-     *We are in the prototyping stage for this smart contract, and developers are open to any comments or suggestions.
-     *Please don't implement this smart contract in real cases until official release
-     */
+ * @Version: 3.0
+ * @author: Hossein Naderi
+ */
      
 // SPDX-License-Identifier: MIT
 import "@openzeppelin/contracts/access/Ownable.sol";

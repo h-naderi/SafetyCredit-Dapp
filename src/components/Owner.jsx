@@ -3,8 +3,7 @@ import { Button } from "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Web3 from "web3";
 import SCO from "../contracts/SCOperator.json";
-import CDATA from "../data_companies/data.json";
-import CIDDATA from "../data_companies/reportCIDsA.json";
+import CIDDATA from "../data_companies/safeReport.json";
 import axios from "axios";
 require('dotenv').config();
 
@@ -12,7 +11,6 @@ var account = null;
 var contractSCO = null;
 
 const SCOperator = SCO;
-const cdata = CDATA;
 const cidDataA = CIDDATA;
 
 const ownerAccount = process.env.REACT_APP_OWNER_ADDRESS;
@@ -20,11 +18,7 @@ const SCNFTContractAddress = process.env.REACT_APP_SCNFT_CONTRACT_ADDRESS;
 const apikey =  process.env.REACT_APP_ETHERSCAN_API_KEY;
 const endpoint = process.env.REACT_APP_ETHERSCAN_RINKEBY_ENDPOINT;
 const SCOperatorAddress = process.env.REACT_APP_SCO_CONTRACT_ADDRESS;
-const accountIDs = [];
 
-for (let i = 0; i < cdata.length; i++) {
-  accountIDs.push(cdata[i].Address);
-}
 
 async function ownerConnectWallet() {
   if (window.ethereum) {
