@@ -1,0 +1,9 @@
+# train and val data
+train: /content/drive/MyDrive/helmet_detect/custom_dataset/images/train/
+val: /content/drive/MyDrive/helmet_detect/custom_dataset/images/val/
+
+# number of classes
+nc: 2
+
+# class names
+names: ['helmet', 'head']
