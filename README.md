@@ -1,81 +1,68 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# SafetyCredit Dapp Project
 
-## Available Scripts
+This project was developed as a part of my PhD degree in the Myers-Lawson School of Construction under the supervision of Dr. Alireza Shojaei.
 
-In the project directory, you can run:
+This also serves as a proof-of-concept for the framework generated in [THIS]((https://www.linkedin.com/in/h-naderi/)) paper.
+## What is SafetyCredit Dapp?
+A decentralized application (dapp) aiming to automatically reward construction companies with Fungible Tokens (FTs) and Non-Fungible Tokens (NFTs) based on their safe behavior through the integration of smart contracts and computer-vision techniques.
 
-### `npm start`
+[![Version](https://img.shields.io/badge/version-2.5-%1b365c)](https://img.shields.io/badge/version-2.5-%2300ff80)   
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+[![NFT](https://img.shields.io/badge/NFT-ERC721-%1b365c)](https://img.shields.io/badge/NFT-ERC721-%2300ff80)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+[![Token](https://img.shields.io/badge/Token-ERC20-%1b365c)](https://img.shields.io/badge/Token-ERC20-%2300ff80)
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Demo
+This is a functional Demo presenting how the SafetyCredit Dapp works.
 ![SCTDemo_function (2)](https://user-images.githubusercontent.com/92793682/196040022-73c599b9-2ecb-439b-af85-ab5a942c6717.gif)
 
-### screenshots
-1
-![1](https://user-images.githubusercontent.com/92793682/196046373-0facc201-cad5-4eb5-80c5-ff2ed34f3162.JPG)
-2
+
+## Authors
+
+- Hossein Naderi ([LinkedIn](https://www.linkedin.com/in/h-naderi/), [gitHub](https://github.com/h-naderi))
+- Alireza Shojaei ([Profile](https://www.bc.vt.edu/people/shojaei), [GoogleScholar](https://scholar.google.com/citations?user=XaobvDoAAAAJ&hl=en))
+- ReachSak Ly ([LinkedIn](https://kh.linkedin.com/in/reachsak))
+
+
+## Structure
+Codes and contracts can be found in the following structure:
+
+
+```
+`-- src
+    `-- components 
+        |-- Contractor.jsx ..................... 1.
+        |-- Home.jsx ........................... 2.
+        |-- MyNav.jsx .......................... 3.
+        |-- Owner.jsx .......................... 4.
+    `-- contracts 
+        |-- SCOperator.sol ..................... 5.
+        |-- SCTFactory.sol ..................... 6. 
+        |-- SCNFTMinter.sol .................... 7.
+    `-- computerVisionModule....................      
+|-- README.md
+|-- package.JSON 
+```
+1. A React component developed to serve as Contractor Portal for the Dapp.
 ![2](https://user-images.githubusercontent.com/92793682/196046378-9726718a-8c00-43b1-919d-49eb1041e216.JPG)
-3
+2. A React component developed to serve as Home Portal for the Dapp.
+![1](https://user-images.githubusercontent.com/92793682/196046373-0facc201-cad5-4eb5-80c5-ff2ed34f3162.JPG)
+
+3. Navigation bar.
+
+4. A React component developed to serve as Home Portal for the Dapp.
 ![3](https://user-images.githubusercontent.com/92793682/196046383-0e7017f5-c3b6-48ee-9b9a-98510f422e1c.JPG)
 
+5. A smart contract developed in solidity to interact with users (detailed in paper)
+
+6. A smart contract developed in solidity to generate 
+## Deployment
+
+To deploy this project run
+
+```bash
+  npm run deploy
+```
 
