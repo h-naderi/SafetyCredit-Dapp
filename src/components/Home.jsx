@@ -200,14 +200,6 @@ class Home extends Component {
                       </span>
                       <span id="numberFont">{cdata[0].AvarageAccuracy}</span>
                     </li>
-                    <li className="list-group-item list-group-item-action d-flex justify-content-between align-items-center pb-0 pt-0 mb-0 border-1">
-                      <span>
-                        <strong>
-                          Average safety performance:&nbsp;&nbsp;&nbsp;
-                        </strong>
-                      </span>
-                      <span id="numberFont">{cdata[0].AveragePerformance}</span>
-                    </li>
                   </ul>
                   <div
                     className="LatestReport"
@@ -379,14 +371,6 @@ class Home extends Component {
                       </span>
                       <span id="numberFont">{cdata[1].AvarageAccuracy}</span>
                     </li>
-                    <li className="list-group-item list-group-item-action d-flex justify-content-between align-items-center pb-0 pt-0 mb-0 border-1">
-                      <span>
-                        <strong>
-                          Average safety performance:&nbsp;&nbsp;&nbsp;
-                        </strong>
-                      </span>
-                      <span id="numberFont">{cdata[1].AveragePerformance}</span>
-                    </li>
                   </ul>
                   <div
                     className="LatestReport"
@@ -557,14 +541,6 @@ class Home extends Component {
                         <strong>Average SCV Accuracy:&nbsp;&nbsp;&nbsp;</strong>
                       </span>
                       <span id="numberFont">{cdata[2].AvarageAccuracy}</span>
-                    </li>
-                    <li className="list-group-item list-group-item-action d-flex justify-content-between align-items-center pb-0 pt-0 mb-0 border-1">
-                      <span>
-                        <strong>
-                          Average safety performance:&nbsp;&nbsp;&nbsp;
-                        </strong>
-                      </span>
-                      <span id="numberFont">{cdata[2].AveragePerformance}</span>
                     </li>
                   </ul>
                   <div
