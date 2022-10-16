@@ -1,0 +1,26 @@
+{   "status": 1,
+    "metaData": {
+        "name": "Company C",
+        "companyType": "contractor",
+        "city": "Tehran",
+        "projectName": "Tehran Bridge",
+        "workingTimeFrom": "9AM",
+        "workingTimeTo": "5PM"
+    },
+    "visionInfo": {
+        "number": 3,
+        "registerDate": "2022-06-30"
+    },
+    "SCVisionReport": {
+        "reportID": "A-1",
+        "reportPeriod": "2022-07-01 : 2022-07-08",
+        "totalPics": 0,
+        "totalObserved": 0,
+        "safeObservation": 0,
+        "unsafeObservation": 0,
+        "exampleSCVOutput": "",
+        "safetyPerformance": 0,
+        "averageAccuracy": 0
+    },
+    "previousCID": "null"
+}
