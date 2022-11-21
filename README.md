@@ -3,7 +3,7 @@
 
 This project was developed as a part of my research project in the Myers-Lawson School of Construction under the supervision of Dr. Alireza Shojaei.
 
-This also serves as a proof-of-concept for the framework generated in [THIS]((https://www.linkedin.com/in/h-naderi/)) paper.
+This also serves as a proof-of-concept.
 ## What is SafetyCredit Dapp?
 A decentralized application (dapp) aiming to automatically reward construction companies with Fungible Tokens (FTs) and Non-Fungible Tokens (NFTs) based on their safe behavior through the integration of smart contracts and computer-vision techniques.
 
