@@ -1,7 +1,7 @@
 
 # SafetyCredit Dapp Project
 
-This project was developed as a part of my PhD degree in the Myers-Lawson School of Construction under the supervision of Dr. Alireza Shojaei.
+This project was developed as a part of my research project in the Myers-Lawson School of Construction under the supervision of Dr. Alireza Shojaei.
 
 This also serves as a proof-of-concept for the framework generated in [THIS]((https://www.linkedin.com/in/h-naderi/)) paper.
 ## What is SafetyCredit Dapp?
