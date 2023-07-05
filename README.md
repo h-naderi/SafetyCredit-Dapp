@@ -6,7 +6,7 @@
 
 This project was developed as a part of my research project in the Myers-Lawson School of Construction under the supervision of Dr. Alireza Shojaei.
 
-  Read the full paper in the link below:
+  Read the full paper in the following link:
 [https://doi.org/10.1016/j.autcon.2023.104959]
 
 
@@ -15,7 +15,7 @@ This project was developed as a part of my research project in the Myers-Lawson 
 
 A decentralized application (dapp) aiming to automatically reward construction companies with Fungible Tokens (FTs) and Non-Fungible Tokens (NFTs) based on their safe behavior through the integration of smart contracts and computer-vision techniques.
 
-Read the full paper in the link below:
+Read the full paper in the following link:
 [https://doi.org/10.1016/j.autcon.2023.104959](https://doi.org/10.1016/j.autcon.2023.104959 "Persistent link using digital object identifier")
 
   
